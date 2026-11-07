@@ -100,7 +100,7 @@ export const allCandidates = async () => {
   }
 };
 
-// https://goerli.infura.io/v3/ef053c2c3ba3413eac34c7124010cad0
+// https://goerli.infura.io/v3/<your-project-id>
 
 export const startElection = async (time_in_minutes: number) => {
   try {
